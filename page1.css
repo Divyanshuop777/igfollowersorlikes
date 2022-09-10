@@ -506,9 +506,18 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#wb_Text1 div
+#wb_Text1
 {
-   text-align: left;
+   color: #FFA500;
+   font-family: "Comic Sans MS";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 19px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_Text1
 {
@@ -755,11 +764,11 @@ input:focus, textarea:focus, select:focus
 }
 #Button1
 {
-   border: 1px solid #048BB9;
+   border: 1px solid #FF0000;
    border-radius: 0px;
-   background-color: #FFFFFF;
+   background-color: #00BFFF;
    background-image: none;
-   color: #048BB9;
+   color: #FF0000;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;

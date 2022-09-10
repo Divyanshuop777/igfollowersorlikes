@@ -506,9 +506,18 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#wb_Text1 div
+#wb_Text1
 {
-   text-align: left;
+   color: #FFA500;
+   font-family: "Comic Sans MS";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 19px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_Text1
 {
@@ -719,6 +728,7 @@ input:focus, textarea:focus, select:focus
    background-color: #87CEFA;
    background-image: none;
    color: #FF0000;
+   cursor: progress;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
